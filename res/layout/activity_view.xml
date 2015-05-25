@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_clist"
+     >
+
+    
+    <ScrollView
+    	android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.9"              
+        >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp" >
+      
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:src="@drawable/detail_head" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="42dp"        
+        android:orientation="horizontal"        
+        android:background="@drawable/detail_body" 
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp" 
+        android:paddingBottom="5dp"
+        android:gravity="bottom"    
+         >
+
+        <TextView
+		android:id="@+id/textDate"
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:layout_weight="1"
+		android:text="日子" />
+        
+        <TextView
+		android:id="@+id/textDateValue"
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:layout_weight="2"
+		android:text="1990/3/3" />   
+		     
+    </LinearLayout>
+        <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="42dp"  
+	        android:orientation="horizontal"	        
+	        android:background="@drawable/detail_body"
+	        android:paddingLeft="20dp"
+	        android:paddingRight="20dp"
+	        android:paddingBottom="5dp"
+        	android:gravity="bottom"  >
+
+        <TextView
+			android:id="@+id/textOrder"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:text="订单号" />
+        <TextView
+			android:id="@+id/textOrderValue"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="2"
+			android:text="33" />        
+    </LinearLayout>
+
+       	<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="42dp"  
+        android:orientation="horizontal"
+        android:background="@drawable/detail_body"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="5dp"
+        android:gravity="bottom"  >
+
+        <TextView
+		android:id="@+id/textShop"
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:layout_weight="1"
+		android:text="分店名" 
+		/>
+        <TextView
+		android:id="@+id/textShopValue"
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:layout_weight="2"
+		android:text="" 
+		/>        
+    </LinearLayout>
+ 
+ 
+ 
+ 	<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="42dp"  
+        android:orientation="horizontal"
+        android:background="@drawable/detail_body"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="5dp"
+        android:gravity="bottom"  >
+
+        <TextView
+		android:id="@+id/textCom"
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:layout_weight="1"
+		android:text="产品名" 
+		/>
+        <TextView
+		android:id="@+id/textComValue"
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:layout_weight="2"
+		android:text="" 
+		/>        
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="42dp"  
+        android:orientation="horizontal"
+        android:background="@drawable/detail_body"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="5dp"
+        android:gravity="bottom"  >
+
+        <TextView
+		android:id="@+id/textUnit"
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:layout_weight="1"
+		android:text="规格" 
+		/>
+        <TextView
+		android:id="@+id/textUnitValue"
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:layout_weight="2"
+		android:text="" 
+		/>        
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="42dp"  
+        android:orientation="horizontal"
+        android:background="@drawable/detail_body"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="5dp"
+        android:gravity="bottom"  >
+
+        <TextView
+		android:id="@+id/textPrice"
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:layout_weight="1"
+		android:text="单价" 
+		/>
+        <TextView
+		android:id="@+id/textPriceValue"
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:layout_weight="2"
+		android:text="" 
+		/>        
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="42dp"  
+        android:orientation="horizontal"
+        android:background="@drawable/detail_body"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="5dp"
+        android:gravity="bottom"  >
+
+        <TextView
+		android:id="@+id/textCount"
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:layout_weight="1"
+		android:text="叫货量" 
+		/>
+        <TextView
+		android:id="@+id/textCountValue"
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:layout_weight="2"
+		android:text="" 
+		/>        
+    </LinearLayout>  
+ 
+ 	<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="42dp"  
+        android:orientation="horizontal"
+        android:background="@drawable/detail_body"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="5dp"
+        android:gravity="bottom"  >
+
+        <TextView
+		android:id="@+id/textShipCount"
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:layout_weight="1"
+		android:text="出货量" 
+		/>
+        <EditText
+            android:id="@+id/editShipCountValue"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+ 			android:layout_weight="2"
+            android:inputType="numberDecimal"
+             />	
+            
+        <TextView
+		android:id="@+id/textShipCountValue"
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:layout_weight="2"
+		android:visibility="gone"
+		android:text="" 
+		/>
+                	   
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="42dp"  
+        android:orientation="horizontal"
+        android:background="@drawable/detail_body"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="5dp"
+        android:gravity="bottom"  >
+
+        <TextView
+		android:id="@+id/textAmount"
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:layout_weight="1"
+		android:text="金额" 
+		/>
+        <TextView
+		android:id="@+id/textAmountValue"
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:layout_weight="2"
+		android:text="" 
+		/>        
+    </LinearLayout>
+	<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.0"
+        android:orientation="horizontal"
+        android:background="@drawable/detail_body"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp" >
+
+        <TextView
+		android:id="@+id/textRemark"
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:layout_weight="1"
+		android:text="备考" 
+		/>
+        <EditText
+            android:id="@+id/editRemarkValue"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+ 			android:layout_weight="2"
+            android:inputType="textMultiLine" />
+        
+        <TextView
+		android:id="@+id/textRemarkValue"
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:layout_weight="2"
+		android:visibility="gone"
+		android:text="" 
+		/>        		   
+    </LinearLayout>
+     
+   </LinearLayout>
+   </ScrollView>  
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"        
+        android:gravity="center">        
+        
+        <ImageView
+            android:id="@+id/buttonSubmit"
+            android:layout_width="wrap_content"            
+            android:layout_height="wrap_content"                     
+            android:src="@drawable/attr_btn_ok"
+            android:layout_marginRight="30dp" /> 
+
+        <ImageView
+            android:id="@+id/buttonCancel"
+            android:layout_width="wrap_content"            
+            android:layout_height="wrap_content"                     
+            android:src="@drawable/attr_btn_exit" />        
+        
+    </LinearLayout>
+        
+</LinearLayout>

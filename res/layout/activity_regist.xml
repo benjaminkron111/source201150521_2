@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="40dp"
+    android:background="@drawable/bg_login" >
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="0.3" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"                     
+        android:baselineAligned="false" >       
+            
+        
+        <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="0.40"
+                android:layout_height="match_parent"
+                android:gravity="right|center_vertical" >
+                <TextView
+	                android:id="@+id/textView1"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_marginRight="20dp"
+	                android:layout_gravity="bottom"
+	                android:text="@string/button_id"
+	                android:textSize="18sp"
+	             />
+        </LinearLayout>            
+        
+        <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="0.60"
+                android:layout_height="match_parent"
+                android:gravity="left|center_vertical" >
+                <EditText
+	                android:id="@+id/editID"
+	                android:layout_width="200dp"
+	                android:layout_height="wrap_content"
+	                android:ems="15"
+	                android:inputType="text"
+	                android:textSize="18sp"
+	                 >
+	                <requestFocus />
+            	</EditText>
+            </LinearLayout>  
+        
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"        
+        android:layout_height="wrap_content"             
+        android:layout_marginTop="20dp"        
+        android:baselineAligned="false" >        
+        
+        <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="0.40"
+                android:layout_height="match_parent"
+                android:gravity="right|center_vertical" >
+                <TextView
+	                android:id="@+id/textView2"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_marginRight="20dp"
+	                android:layout_gravity="bottom"
+	                android:text="@string/button_password"
+	                android:textSize="20sp"
+	             />
+        </LinearLayout>            
+        
+        <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="0.60"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical" >
+                <EditText
+	                android:id="@+id/editPWD"
+	                android:layout_width="200dp"
+	                android:layout_height="wrap_content"
+	                android:ems="15"
+	                android:inputType="textPassword"
+	                android:textSize="20sp"
+	                 >
+	                
+            	</EditText>
+            </LinearLayout>  
+        
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_weight="0.15"
+        android:gravity="center" >
+
+        <ImageView
+            android:id="@+id/buttonRegist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="50dp"
+            android:src="@drawable/attr_btn_login" />
+
+        <ImageView
+            android:id="@+id/buttonEnd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/attr_btn_exit" />
+    </LinearLayout>
+    
+    <View
+        android:id="@+id/view2"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="0.35" />
+        
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="country_names">
+        <item>A</item>
+        <item>B</item>
+    </string-array>
+    <array name="country_icons">
+		<item>@drawable/a</item>
+		<item>@drawable/b</item>
+    </array>
+    
+</resources>
